@@ -19,7 +19,7 @@ startBtn.addEventListener("click", onStartBtn);
 stopBtn.addEventListener("click", onStopBtn);
 
 // call-back функция, которая срабатывает при нажатии на старт
-// делает кнопку старт неактивной и меняет фон
+// делает кнопку "старт" неактивной и меняет фон
 function onStartBtn() {
   startBtn.disabled = true;
   stopBtn.disabled = false;
@@ -27,7 +27,7 @@ function onStartBtn() {
 }
 
 // call-back функция, которая срабатывает при нажатии на стоп
-// делает кнопку стоп неактивной и останавливает смену цвета фона
+// делает кнопку "стоп" неактивной и останавливает смену цвета фона
 function onStopBtn() {
   startBtn.disabled = false;
   stopBtn.disabled = true;
